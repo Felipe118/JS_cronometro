@@ -1,0 +1,16 @@
+body{
+			background-color: green;
+		}
+		#cronometro{
+			
+			width: 500px;
+			height: 200px;
+			
+
+		}
+		#conteudo{
+			border: 1px solid black;
+			width:600px;
+			height: 500px;
+			margin: 700px;
+		}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="cronometro">
+		Tempo restante: <span id="cronometro"></span>
+		
+	</div>
+
+	<script type="text/javascript">
+		let tempo = 20
+
+		let cronometro = setInterval(function(){
+			tempo -=1
+
+			if (tempo<0) {
+				clearInterval(cronometro)
+				window.location.href='explodiu.html'
+			}else{
+				document.getElementById('cronometro').innerHTML = tempo
+			}
+
+			},1000)
+		
+	</script>
+
+</body>
+</html>

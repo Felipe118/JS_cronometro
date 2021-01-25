@@ -1,0 +1,52 @@
+body{
+			background-color:#FE9A2E;
+		}
+		.cronometro{
+			
+			position: relative;
+			top: 170px;
+			left: 450px;
+
+			
+			width: 300px;
+			height: 130px;
+			color: #DF0101;
+			
+			padding: 20px;
+			
+
+		}
+		 .tempo{
+		 	font-size: 20px;
+		 	font-weight: bold;
+		}
+		#cronometro{
+			display: inline;
+			color: #DF0101;
+			
+			margin-left: 80px;
+			font-weight: bold;
+			font-size: 50px;
+
+
+		}
+		}
+	
+		.conteudo{
+			
+			width:600px;
+			height: 200px;
+			margin: 100px;
+		
+			font-weight: bold;
+		}
+		h1{
+			
+			display: inline;
+			position: relative;
+			bottom: 100px;
+			left: 350px;
+
+		}
+		
+
