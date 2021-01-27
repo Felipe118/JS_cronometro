@@ -1,6 +1,9 @@
 body{
 			background-color:#FE9A2E;
 		}
+		*{
+			margin :0px;
+		}
 		.cronometro{
 			
 			position: relative;
@@ -47,6 +50,14 @@ body{
 			bottom: 100px;
 			left: 350px;
 
+		}
+		.caixa{
+		
+			height: 70px;
+			width: 230px;
+			position: relative;
+			bottom: 700px;
+			right: 100px;
 		}
 		
 
